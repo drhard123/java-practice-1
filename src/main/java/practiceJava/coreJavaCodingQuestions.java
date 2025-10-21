@@ -12,7 +12,7 @@ public class coreJavaCodingQuestions {
 			e.printStackTrace();
 			
 		}finally {
-			System.out.println("This block will always execute");
+			System.out.println("This block will always execute.");
 		}
 		
 		
