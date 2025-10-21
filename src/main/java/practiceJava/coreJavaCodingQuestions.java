@@ -29,7 +29,12 @@ public class coreJavaCodingQuestions {
 		
 		System.out.println("Reverse of the string "+str1+" = "+reverse);
 		
-		
+		/*
+		 * 3. Check Palindrome String
+		 */
+		String str2 = "1221";
+		String str3 = new StringBuilder(str2).reverse().toString();
+		System.out.println(str3.equals(str2) ? "Its a palindrome" : "Its not a palindrome");
 
 	}
 
